@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Typography" parent="TextAppearance.AppCompat" />
+
+    <style name="Theme.Typography.Headline1" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="android:textSize">32sp</item>
+        <item name="fontFamily">@font/open_sans_bold</item>
+    </style>
+    <style name="Theme.Typography.Headline2" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="android:textSize">32sp</item>
+        <item name="fontFamily">@font/open_sans_semi_bold</item>
+    </style>
+    <style name="Theme.Typography.Headline3" parent="TextAppearance.MaterialComponents.Headline3">
+        <item name="android:textSize">28sp</item>
+        <item name="fontFamily">@font/open_sans_extra_bold</item>
+    </style>
+    <style name="Theme.Typography.Headline4" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="android:textSize">24sp</item>
+        <item name="fontFamily">@font/open_sans_extra_bold</item>
+    </style>
+    <style name="Theme.Typography.Headline5" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textSize">22sp</item>
+        <item name="fontFamily">@font/open_sans_bold</item>
+    </style>
+    <style name="Theme.Typography.Headline6" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="fontFamily">@font/open_sans_semi_bold</item>
+    </style>
+</resources>
