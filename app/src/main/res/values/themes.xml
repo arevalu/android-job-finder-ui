@@ -16,5 +16,6 @@
         <item name="android:background">@color/white</item>
         <item name="android:textColorPrimary">@color/text</item>
         <item name="android:textColorSecondary">@color/placeholder_text</item>
+        <item name="android:textColorHint">@color/placeholder_text</item>
     </style>
 </resources>

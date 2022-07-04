@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">JobFinder</string>
+    <!-- layout/activity_main -->
+    <string name="content_description_icon_menu">Icon menu</string>
+    <string name="content_description_icon_search_filter">Icon search filter</string>
+    <string name="content_description_image_profile">Profile image</string>
+    <string name="text_heading_line">Where are you</string>
+    <string name="text_heading_sub_line">looking for a job?</string>
+    <string name="text_search_placeholder">Search for a location</string>
+    <string name="main_text_list_title">Jobs <b>for your filters</b></string>
+    <string name="content_description_logo_image">Logo image</string>
+    <string name="content_description_icon_location">Icon location</string>
 </resources>
