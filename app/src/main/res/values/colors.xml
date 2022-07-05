@@ -9,6 +9,8 @@
 
     <color name="text">#242A33</color>
     <color name="placeholder_text">#A4A9B3</color>
+    <color name="favorite_text">#FAC6C6</color>
+
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 </resources>
