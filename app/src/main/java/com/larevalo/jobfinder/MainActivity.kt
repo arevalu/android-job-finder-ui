@@ -35,9 +35,9 @@ class MainActivity : AppCompatActivity() {
                 false,
                 "400.000",
                 "Uber",
-                "logo_uber",
                 Job.WorkingHours.FLEXIBLE,
-                "Description of the position"
+                "Description of the position",
+                "logo_uber",
             ),
             Job(
                 "1",
@@ -46,7 +46,28 @@ class MainActivity : AppCompatActivity() {
                 true,
                 "400.000",
                 "Udemy",
+                Job.WorkingHours.FLEXIBLE,
+                "Description of the position",
                 "logo_udemy",
+            ),
+            Job(
+                "1",
+                "Frontend Engineer",
+                "Buenos Aires",
+                false,
+                "400.000",
+                "Udemy",
+                Job.WorkingHours.FLEXIBLE,
+                "Description of the position",
+                "logo_udemy",
+            ),
+            Job(
+                "1",
+                "Frontend Engineer",
+                "Buenos Aires",
+                false,
+                "400.000",
+                "Udemy",
                 Job.WorkingHours.FLEXIBLE,
                 "Description of the position"
             ),
@@ -57,9 +78,9 @@ class MainActivity : AppCompatActivity() {
                 false,
                 "400.000",
                 "Udemy",
-                "logo_udemy",
                 Job.WorkingHours.FLEXIBLE,
-                "Description of the position"
+                "Description of the position",
+                "logo_udemy",
             ),
             Job(
                 "1",
@@ -68,31 +89,9 @@ class MainActivity : AppCompatActivity() {
                 false,
                 "400.000",
                 "Udemy",
-                "logo_udemy",
                 Job.WorkingHours.FLEXIBLE,
-                "Description of the position"
-            ),
-            Job(
-                "1",
-                "Frontend Engineer",
-                "Buenos Aires",
-                false,
-                "400.000",
-                "Udemy",
+                "Description of the position",
                 "logo_udemy",
-                Job.WorkingHours.FLEXIBLE,
-                "Description of the position"
-            ),
-            Job(
-                "1",
-                "Frontend Engineer",
-                "Buenos Aires",
-                false,
-                "400.000",
-                "Udemy",
-                "logo_udemy",
-                Job.WorkingHours.FLEXIBLE,
-                "Description of the position"
             )
         )
 

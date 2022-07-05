@@ -21,7 +21,7 @@
             android:layout_height="56dp"
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true"
-            android:background="@null"
+            android:background="@drawable/shape_company_logo"
             android:contentDescription="@string/content_description_logo_image"
             android:scaleType="centerCrop"
             android:src="@drawable/logo_no_company" />

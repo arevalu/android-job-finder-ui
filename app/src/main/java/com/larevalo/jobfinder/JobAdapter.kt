@@ -46,7 +46,7 @@ class JobAdapter(private val context: Context) : ListAdapter<Job, JobAdapter.Job
         }
     }
 
-    private fun convertStringToDrawableResource(companyLogo: String): Int {
+    private fun convertStringToDrawableResource(companyLogo: String?): Int {
         return context.resources.getIdentifier(companyLogo, "drawable", context.packageName)
     }
 
