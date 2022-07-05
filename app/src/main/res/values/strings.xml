@@ -12,5 +12,5 @@
     <string name="content_description_icon_location">Icon location</string>
 
     <!-- JobAdapter -->
-    <string name="format_job_salary">$ %s</string>
+    <string name="format_job_salary">$ %1$s %2$s</string>
 </resources>
