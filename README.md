@@ -24,9 +24,17 @@
 
 * MVVM
 * Light and dark theme
-* Read from local JSON file
-* GSON: to work with JSON file
+* Read data from local JSON file
+* [google/GSON](https://github.com/google/gson): to work with JSON file
 * [Navigation Fragment](https://developer.android.com/guide/navigation/navigation-getting-started)
+
+## :art: Design
+
+Inspired by [Dribbble](https://dribbble.com/shots/8211061-Job/attachments/586680?mode=media) design
+
+<a href="https://dribbble.com/shots/8211061-Job/attachments/586680?mode=media" target="_blank">
+  <img height="300px" src="https://cdn.dribbble.com/users/2619409/screenshots/8211061/media/f79685c020d62816137b0923dea10d34.png" />
+</a>
 
 ## :envelope: Contact me
 
