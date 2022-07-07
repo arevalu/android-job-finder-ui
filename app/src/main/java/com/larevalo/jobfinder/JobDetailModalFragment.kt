@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.RelativeLayout
+import androidx.core.view.ViewCompat
 import androidx.navigation.fragment.navArgs
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetDialog
@@ -41,7 +42,7 @@ class JobDetailModalFragment : BottomSheetDialogFragment() {
         binding = FragmentJobDetailModalBinding.inflate(inflater)
         job = args.job
 
-        binding.detailContentWrapper.layoutParams.height = getModalHeight(MODAL_CONTENT_HEIGHT_PERCENTAGE)
+        binding.detailContentScrollview.layoutParams.height = getModalHeight(MODAL_CONTENT_HEIGHT_PERCENTAGE)
         bottomSheetBehavior = BottomSheetBehavior.from(binding.jobDetailBottomSheet)
 
         setBottomSheetVisibility(true)
