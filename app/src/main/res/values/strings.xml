@@ -1,16 +1,27 @@
 <resources>
     <string name="app_name">JobFinder</string>
+
     <!-- layout/activity_main -->
     <string name="content_description_icon_menu">Icon menu</string>
     <string name="content_description_icon_search_filter">Icon search filter</string>
     <string name="content_description_image_profile">Profile image</string>
+    <string name="content_description_logo_image">Logo image</string>
+    <string name="content_description_icon_location">Icon location</string>
     <string name="text_heading_line">Where are you</string>
     <string name="text_heading_sub_line">looking for a job?</string>
     <string name="text_search_placeholder">Search for a location</string>
     <string name="main_text_list_title">Jobs <b>for your filters</b></string>
-    <string name="content_description_logo_image">Logo image</string>
-    <string name="content_description_icon_location">Icon location</string>
+
+    <!-- layout/fragment_job_detail_modal -->
+    <string name="content_description_modal_icon">Modal icon</string>
+    <string name="content_description_company_logo">Company logo</string>
+    <string name="detail_label_company">Company</string>
+    <string name="detail_label_salary">Salary / Month</string>
+    <string name="detail_label_working_hours">Working hours</string>
+    <string name="detail_label_description">Description</string>
 
     <!-- JobAdapter -->
     <string name="format_job_salary">$ %1$s %2$s</string>
+    <string name="detail_submit_application_btn">Submit an application</string>
+
 </resources>

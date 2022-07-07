@@ -7,17 +7,23 @@
         <entry key="app/src/main/res/drawable/ic_filters.xml" value="0.195" />
         <entry key="app/src/main/res/drawable/ic_location.xml" value="0.195" />
         <entry key="app/src/main/res/drawable/ic_menu.xml" value="0.195" />
+        <entry key="app/src/main/res/drawable/ic_remove.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_search.xml" value="0.195" />
         <entry key="app/src/main/res/drawable/shape_company_logo.xml" value="0.195" />
+        <entry key="app/src/main/res/drawable/shape_detail_company_item.xml" value="0.1985" />
         <entry key="app/src/main/res/drawable/shape_edit_text.xml" value="0.195" />
         <entry key="app/src/main/res/drawable/shape_icon_button.xml" value="0.195" />
         <entry key="app/src/main/res/drawable/shape_job_featured_item.xml" value="0.195" />
         <entry key="app/src/main/res/drawable/shape_job_item.xml" value="0.195" />
+        <entry key="app/src/main/res/drawable/shape_primary_button.xml" value="0.272" />
         <entry key="app/src/main/res/drawable/shape_rounded.xml" value="0.195" />
         <entry key="app/src/main/res/drawable/shape_user_status.xml" value="0.195" />
         <entry key="app/src/main/res/font/fonts.xml" value="0.21944444444444444" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="app/src/main/res/layout/job_item.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2556179775280899" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.203125" />
+        <entry key="app/src/main/res/layout/fragment_job_detail_modal.xml" value="0.21969988457098885" />
+        <entry key="app/src/main/res/layout/job_item.xml" value="0.4237695078031212" />
+        <entry key="app/src/main/res/layout/job_modal_detail.xml" value="0.29739583333333336" />
       </map>
     </option>
   </component>

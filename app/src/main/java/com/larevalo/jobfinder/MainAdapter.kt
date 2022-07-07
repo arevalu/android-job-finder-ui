@@ -10,9 +10,12 @@ import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.larevalo.jobfinder.databinding.JobItemBinding
 import com.larevalo.jobfinder.model.Job
+import com.larevalo.jobfinder.utils.convertStringToDrawableResource
 
 class MainAdapter(private val context: Context) :
     ListAdapter<Job, MainAdapter.JobViewHolder>(DiffCallback) {
+    lateinit var onItemClickListener: (Job) -> Unit
+
     companion object DiffCallback : DiffUtil.ItemCallback<Job>() {
         override fun areItemsTheSame(oldItem: Job, newItem: Job): Boolean {
             return oldItem.id == newItem.id
@@ -40,16 +43,16 @@ class MainAdapter(private val context: Context) :
             binding.jobItemSalary.text =
                 context.getString(R.string.format_job_salary, job.salary, job.salaryCurrency)
             binding.jobItemLocation.text = job.location
-            binding.jobItemLogo.setImageResource(convertStringToDrawableResource(job.companyLogo))
+            binding.jobItemLogo.setImageResource(convertStringToDrawableResource(context, job.companyLogo))
 
             if (job.isFavorite) {
                 formatFavoriteJobItem(binding)
             }
-        }
-    }
 
-    private fun convertStringToDrawableResource(companyLogo: String?): Int {
-        return context.resources.getIdentifier(companyLogo, "drawable", context.packageName)
+            if (::onItemClickListener.isInitialized) {
+                binding.root.setOnClickListener{ onItemClickListener(job) }
+            }
+        }
     }
 
     private fun formatFavoriteJobItem(binding: JobItemBinding) {

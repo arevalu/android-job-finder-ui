@@ -13,8 +13,27 @@
         <item name="android:statusBarColor">?attr/colorOnPrimary</item>
         <!-- Customize your theme here. -->
         <item name="android:background">@color/dark</item>
+        <item name="android:windowBackground">@color/modal_dark</item>
+
         <item name="android:textColorPrimary">@color/white</item>
         <item name="android:textColorSecondary">@color/secondary</item>
         <item name="android:textColorHint">@color/secondary_dark</item>
+
+        <item name="bottomSheetDialogTheme">@style/Theme.Modal</item>
+    </style>
+
+    <style name="Theme.Modal" parent="ThemeOverlay.MaterialComponents.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Theme.BottomSheet.Modal</item>
+        <item name="materialButtonStyle">@style/Theme.BottomSheet.Button</item>
+        <item name="android:background">?android:windowBackground</item>
+    </style>
+
+    <style name="Theme.BottomSheet.Button" parent="Widget.MaterialComponents.Button">
+        <item name="background">@color/primary</item>
+    </style>
+
+    <style name="Theme.BottomSheet.Modal" parent="Widget.MaterialComponents.BottomSheet.Modal">
+        <item name="backgroundTint">@color/dark</item>
+        <item name="colorPrimary">@color/primary</item>
     </style>
 </resources>

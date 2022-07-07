@@ -1,9 +1,12 @@
 package com.larevalo.jobfinder.model
 
+import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
+import kotlinx.parcelize.Parcelize
 
 private const val DEFAULT_COMPANY_LOGO = "logo_no_company"
 
+@Parcelize
 data class Job(
     @SerializedName("id")
     val id: String = "",
@@ -25,7 +28,7 @@ data class Job(
     val description: String = "",
     @SerializedName("companyLogo")
     val companyLogo: String? = DEFAULT_COMPANY_LOGO,
-) {
+) : Parcelable {
     enum class WorkingHours {
         FLEXIBLE, PART_TIME
     }

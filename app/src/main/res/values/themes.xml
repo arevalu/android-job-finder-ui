@@ -14,8 +14,26 @@
         <item name="android:windowLightStatusBar">true</item>
         <!-- Customize your theme here. -->
         <item name="android:background">@color/white</item>
+        <item name="android:windowBackground">@color/modal_light</item>
+
         <item name="android:textColorPrimary">@color/text</item>
         <item name="android:textColorSecondary">@color/placeholder_text</item>
         <item name="android:textColorHint">@color/placeholder_text</item>
+
+        <item name="bottomSheetDialogTheme">@style/Theme.Modal</item>
+    </style>
+
+    <style name="Theme.Modal" parent="ThemeOverlay.MaterialComponents.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Theme.BottomSheet.Modal</item>
+        <item name="materialButtonStyle">@style/Theme.BottomSheet.Button</item>
+        <item name="android:background">?android:windowBackground</item>
+    </style>
+
+    <style name="Theme.BottomSheet.Button" parent="Widget.MaterialComponents.Button">
+        <item name="background">@color/primary</item>
+    </style>
+
+    <style name="Theme.BottomSheet.Modal" parent="Widget.MaterialComponents.BottomSheet.Modal">
+        <item name="backgroundTint">@color/white</item>
     </style>
 </resources>

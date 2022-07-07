@@ -40,7 +40,7 @@
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:layout_toEndOf="@+id/job_item_separator"
-            android:background="@null"
+            android:background="@android:color/transparent"
             android:orientation="vertical">
 
             <TextView
@@ -48,7 +48,7 @@
                 style="@style/Theme.Typography.Headline6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@null"
+                android:background="@android:color/transparent"
                 android:textColor="?android:textColorPrimary"
                 tools:text="Digital Art Director" />
 
@@ -58,7 +58,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
-                android:background="@null"
+                android:background="@android:color/transparent"
                 android:textColor="?android:textColorPrimary"
                 tools:text="$ 13.000" />
 
@@ -66,7 +66,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
-                android:background="@null"
+                android:background="@android:color/transparent"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -75,7 +75,7 @@
                     android:layout_height="16dp"
                     android:layout_gravity="center_vertical"
                     android:layout_marginEnd="4dp"
-                    android:background="@null"
+                    android:background="@android:color/transparent"
                     android:contentDescription="@string/content_description_icon_location"
                     android:src="@drawable/ic_location" />
 
@@ -85,7 +85,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
-                    android:background="@null"
+                    android:background="@android:color/transparent"
                     android:textColor="?android:textColorSecondary"
                     tools:text="San Francisco, CA" />
 

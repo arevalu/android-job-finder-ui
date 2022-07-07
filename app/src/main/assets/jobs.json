@@ -14,10 +14,10 @@
     "company": "Uber",
     "companyLogo": "logo_uber",
     "description": "PhD or equivalent in Computer Science, Engineering, Mathematics or related field AND 2-years full-time Software Engineering work experience OR 5-years full-time Software Engineering work experience, WHICH INCLUDES 3-years total technical software engineering experience in one or more of the following areas:\nProgramming language (e.g. JavaScript, CSS, Node.js)\nArchitecting, building, and maintaining web applications\nNote the 3-years total of specialized software engineering experience may have been gained through education and full-time work experience, additional training, coursework, research, or similar (OR some combination of these). The years of specialized experience are not necessarily in addition to the years of Education & full-time work experience indicated.",
-    "id": "1",
+    "id": "2",
     "isFavorite": false,
     "location": "Seattle, WA",
-    "position": "Staff Front End Engineer",
+    "position": "Front End Engineer",
     "salary": "6.000",
     "salaryCurrency": "USD",
     "workingHours": "FLEXIBLE"

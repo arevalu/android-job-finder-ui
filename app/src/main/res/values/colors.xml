@@ -7,10 +7,15 @@
     <color name="secondary_dark">#C5CAD0</color>
     <color name="dark">#191B30</color>
 
+    <!-- background -->
+    <color name="modal_dark">#7E191B30</color>
+    <color name="modal_light">#60424242</color>
+
+    <!-- text -->
     <color name="text">#242A33</color>
     <color name="placeholder_text">#A4A9B3</color>
     <color name="favorite_text">#FAC6C6</color>
 
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
 </resources>

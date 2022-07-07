@@ -2,32 +2,36 @@ package com.larevalo.jobfinder
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.lifecycle.ViewModelProvider
-import androidx.recyclerview.widget.GridLayoutManager
+import android.util.Log
+import androidx.navigation.NavController
+import androidx.navigation.findNavController
+import androidx.navigation.fragment.findNavController
+import androidx.navigation.ui.setupActionBarWithNavController
 import com.larevalo.jobfinder.databinding.ActivityMainBinding
-import com.larevalo.jobfinder.utils.JobItemDecorator
+import com.larevalo.jobfinder.model.Job
 
-private const val JOB_ITEM_SPACING = 64
+class MainActivity : AppCompatActivity(), HomeFragment.JobSelectListener {
 
-class MainActivity : AppCompatActivity() {
-
-    private lateinit var viewModel: MainViewModel
+    private lateinit var navController: NavController
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        viewModel = ViewModelProvider(this)[MainViewModel::class.java]
+        val navHostFragment = supportFragmentManager.findFragmentById(R.id.main_container_nav)!!
+        navController = navHostFragment.findNavController()
+    }
 
-        binding.mainJobList.addItemDecoration(JobItemDecorator(JOB_ITEM_SPACING))
-        binding.mainJobList.layoutManager = GridLayoutManager(this, 1)
+    override fun onSupportNavigateUp(): Boolean {
+        return navController.navigateUp() || super.onSupportNavigateUp()
+    }
 
-        val adapter = MainAdapter(this)
-        binding.mainJobList.adapter = adapter
-
-        viewModel.jobList.observe(this) { jobList ->
-            adapter.submitList(jobList)
-        }
+    override fun onJobSelected(job: Job) {
+        navController.navigate(
+            HomeFragmentDirections.actionHomeFragmentToJobDetailModalFragment(
+                job
+            )
+        )
     }
 }

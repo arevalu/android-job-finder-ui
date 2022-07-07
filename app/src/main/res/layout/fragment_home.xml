@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".HomeFragment">
+
+        <RelativeLayout
+            android:id="@+id/main_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:paddingHorizontal="24dp">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/content_description_icon_menu"
+                android:src="@drawable/ic_menu" />
+
+            <FrameLayout
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/main_profile_picture"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/content_description_image_profile"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/profile_picture"
+                    app:shapeAppearanceOverlay="@style/circle_image" />
+
+                <View
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_gravity="top|start"
+                    android:background="@drawable/shape_user_status" />
+
+            </FrameLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/main_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/main_header"
+            android:layout_marginVertical="42dp"
+            android:paddingHorizontal="24dp">
+
+            <TextView
+                android:id="@+id/main_heading_line"
+                style="@style/Theme.Typography.Headline2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_heading_line"
+                android:textColor="?android:textColorPrimary" />
+
+            <TextView
+                android:id="@+id/main_heading_sub_line"
+                style="@style/Theme.Typography.Headline1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading_line"
+                android:text="@string/text_heading_sub_line"
+                android:textColor="?android:textColorPrimary" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/main_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/main_heading"
+            android:paddingHorizontal="24dp">
+
+            <EditText
+                android:id="@+id/main_search_edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginEnd="16dp"
+                android:layout_toStartOf="@+id/main_search_button"
+                android:background="@drawable/shape_edit_text"
+                android:drawableStart="@drawable/ic_search"
+                android:drawablePadding="8dp"
+                android:fontFamily="@font/open_sans_regular"
+                android:hint="@string/text_search_placeholder"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:paddingHorizontal="16dp"
+                android:textColor="?android:textColorPrimary"
+                android:textColorHint="?android:textColorHint"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/main_search_button"
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/shape_icon_button"
+                android:contentDescription="@string/content_description_icon_search_filter"
+                android:src="@drawable/ic_filters" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/main_job_list_title"
+            style="@style/Theme.Typography.Subtitle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_search"
+            android:layout_marginVertical="24dp"
+            android:paddingHorizontal="24dp"
+            android:text="@string/main_text_list_title"
+            android:textColor="?android:textColorPrimary" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/main_job_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/main_job_list_title"
+            android:overScrollMode="never"
+            android:paddingStart="24dp"
+            android:paddingEnd="0dp"
+            android:paddingBottom="32dp"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            app:spanCount="1"
+            tools:listitem="@layout/job_item" />
+
+    </RelativeLayout>
+</layout>
