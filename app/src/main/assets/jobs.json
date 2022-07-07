@@ -1,9 +1,10 @@
 [
   {
     "company": "Uber",
-    "description": "PhD or equivalent in Computer Science, Engineering, Mathematics or related field AND 2-years full-time Software Engineering work experience OR 5-years full-time Software Engineering work experience, WHICH INCLUDES 3-years total technical software engineering experience in one or more of the following areas:\nProgramming language (e.g. JavaScript, CSS, Node.js)\nArchitecting, building, and maintaining web applications\nNote the 3-years total of specialized software engineering experience may have been gained through education and full-time work experience, additional training, coursework, research, or similar (OR some combination of these). The years of specialized experience are not necessarily in addition to the years of Education & full-time work experience indicated.",
+    "companyLogo": "logo_uber",
+    "description": "PhD or equivalent in Computer Science, Engineering, Mathematics or related field AND 2-years full-time Software Engineering work experience OR 5-years full-time Software Engineering work experience, WHICH INCLUDES 3-years total technical software engineering experience in one or more of the following areas:\n\nProgramming language (e.g. JavaScript, CSS, Node.js)\n\nArchitecting, building, and maintaining web applications\n\nNote the 3-years total of specialized software engineering experience may have been gained through education and full-time work experience, additional training, coursework, research, or similar (OR some combination of these). The years of specialized experience are not necessarily in addition to the years of Education & full-time work experience indicated.",
     "id": "1",
-    "isFavorite": false,
+    "isFavorite": true,
     "location": "Seattle, WA",
     "position": "Staff Front End Engineer",
     "salary": "6.000",
@@ -11,14 +12,62 @@
     "workingHours": "FLEXIBLE"
   },
   {
-    "company": "Uber",
-    "companyLogo": "logo_uber",
-    "description": "PhD or equivalent in Computer Science, Engineering, Mathematics or related field AND 2-years full-time Software Engineering work experience OR 5-years full-time Software Engineering work experience, WHICH INCLUDES 3-years total technical software engineering experience in one or more of the following areas:\nProgramming language (e.g. JavaScript, CSS, Node.js)\nArchitecting, building, and maintaining web applications\nNote the 3-years total of specialized software engineering experience may have been gained through education and full-time work experience, additional training, coursework, research, or similar (OR some combination of these). The years of specialized experience are not necessarily in addition to the years of Education & full-time work experience indicated.",
+    "company": "Google",
+    "companyLogo": "logo_google",
+    "description": "As a Cloud Data Engineer, you will guide customers on how to ingest, store, process, analyze and explore / visualize data on the Google Cloud Platform. You will work on data migrations and transformational projects. You will work with customers to design large-scale data processing systems, develop data pipelines optimized for scaling, and troubleshoot potential platform issues. You will work with customers to deploy solutions and deliver workshops to educate and empower customers. Additionally, you will work closely with Product Management and Product Engineering to build and constantly drive excellence in our products.\n\nGoogle Cloud provides organizations with leading infrastructure, platform capabilities and industry solutions. We deliver enterprise-grade cloud solutions that leverage Google’s cutting-edge technology to help companies operate more efficiently and adapt to changing needs, giving customers a foundation for the future. Customers in more than 150 countries turn to Google Cloud as their trusted partner to solve their most critical business problems",
     "id": "2",
     "isFavorite": false,
-    "location": "Seattle, WA",
-    "position": "Front End Engineer",
-    "salary": "6.000",
+    "location": "Remoto",
+    "position": "Data Engineer",
+    "salary": "10.000",
+    "salaryCurrency": "USD",
+    "workingHours": "FLEXIBLE"
+  },
+  {
+    "company": "Udemy",
+    "companyLogo": "logo_udemy",
+    "description": "The Sales Development role is a critical front-end sales position where you will be dealing with all Udemy for Business inbound inquiries. SDRs will work with Account Executives to produce an opportunity for pipeline and qualified meetings. In this role will learn skills that will become the foundation of your sales career. This role will be located in Delhi, India and be remote until we return to the office in Gurugram.\n\nYou have\n\nHigh-energy, a team player mentality, and self-motivated\n\nExcellent written and verbal communication skills\n\nOutstanding organisational and time-management skills\n\nCollege degree or Relevant experience\n\nYou will\n\nDevelop inbound inquiries of Udemy for Business\n\nUnderstand and convey the Udemy for Business mission, value proposition, and product\n\nBecome a brand ambassador by getting to know and love the Udemy for Business product and story\n\nExperiment with new and creative prospecting strategies",
+    "id": "3",
+    "isFavorite": false,
+    "location": "Dublín, Irlanda",
+    "position": "Sales Development Representative",
+    "salary": "8.500",
+    "salaryCurrency": "USD",
+    "workingHours": "FLEXIBLE"
+  },
+  {
+    "company": "Mercado Libre",
+    "companyLogo": "logo_mercadolibre",
+    "description": "En Mercado Libre estamos democratizando el comercio, el dinero y los pagos en América Latina.\n\nTecnología es la esencia de nuestro producto. Nuestros equipos de desarrollo, arquitectura, base de datos, user experience, seguridad informática y data & analytics co-crean y son responsables de la plataforma líder de e-commerce de América Latina y de uno de los sitios de mayor tráfico en todo el mundo. En una industria que se reinventa día a día, nuestros equipos son reconocidos por su visión y liderazgo. Desde aplicaciones móviles a machine learning, nuestra innovación tiene un claro foco: simplificarle la vida a quien utiliza nuestros productos.",
+    "id": "4",
+    "isFavorite": false,
+    "location": "Medellín, Colombia",
+    "position": "Ingeniero de Software Fullstack",
+    "salary": "5.000",
+    "salaryCurrency": "USD",
+    "workingHours": "FLEXIBLE"
+  },
+  {
+    "company": "Figma",
+    "companyLogo": "logo_figma",
+    "description": "Figma is growing our team of passionate people on a mission to make design accessible to all. Born on the Web, Figma helps entire product teams brainstorm, create, test, and ship better designs, together. From great products to long-lasting companies, we believe that nothing great is made alone—come make with us!\n\nWe’re looking for our next Design Manager to lead a growing team of four talented designers focusing on the Figma Editor and Design Systems. These are some of our highest-potential product areas – filled with projects that reach millions of customers and zero-to-one exploratory bets. It’s a huge opportunity to help influence the future of how designers work together, and to keep building a world-class design team. We work in a highly collaborative environment, where most projects are owned by small groups of a few people. We strive to foster a positive, inclusive culture.\n\nThis is a full-time role that can be held from one of our US hubs or remotely in the continental United States.",
+    "id": "5",
+    "isFavorite": false,
+    "location": "Estados Unidos, Remoto",
+    "position": "Manager, Product design",
+    "salary": "14.000",
+    "salaryCurrency": "USD",
+    "workingHours": "FLEXIBLE"
+  },
+  {
+    "company": "Facebook",
+    "companyLogo": "logo_facebook",
+    "description": "Responsibilities:\n\nStrengthen senior-level relationships with a focus on driving revenue, advertiser education and advertiser satisfaction\n\nSet the strategy, accurately forecast and deliver impact across your portfolio of mobile gaming market leaders\n\nDrive operational excellence in managing your book of business\n\nCommunicate clearly the progress of monthly/quarterly initiatives to internal and external stakeholders, including the ability to synthesize feedback and adjust plans accordingly\n\nAnticipate industry, consumer, and partner-specific trends in order to influence Meta’s future business strategies\n\nActivate cross-functional teams internally to meet your clients business objectives\n\nLead initiatives that scale beyond your direct team to support other verticals and regions globally",
+    "id": "6",
+    "isFavorite": false,
+    "location": "Singapur, Remoto",
+    "position": "Client Partner, Gaming ",
+    "salary": "9.000",
     "salaryCurrency": "USD",
     "workingHours": "FLEXIBLE"
   }
